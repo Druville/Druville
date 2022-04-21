@@ -1,0 +1,12 @@
+<h2>Wines</h2>
+<ul class="wines">
+    <li *ngFor="let wine of wines">
+        <button [class.selected]="wine === selectedWine" type="button" (click)="onSelect(wine)">
+            <span class="badge">{{wine.id}}</span> {{wine.name}}
+        </button>
+    </li>
+</ul>
+<app-wine-detail [wine]="selectedWine"></app-wine-detail>
+
+
+

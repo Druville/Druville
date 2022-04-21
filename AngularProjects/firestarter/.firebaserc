@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "angularfirebasedemo-1c517": {
+      "hosting": {
+        "firestarter": [
+          "angularfirebasedemo-1c517"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "angularfirebasedemo-1c517"
+  }
+}

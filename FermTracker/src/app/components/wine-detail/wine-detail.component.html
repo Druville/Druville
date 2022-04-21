@@ -1,0 +1,8 @@
+<div *ngIf="wine">
+    <h2> {{wine.name | uppercase}} Details</h2>
+    <div>id: {{wine.id}} </div>
+    <div>
+        <label for="wine-name">Wine Name: </label>
+        <input id="wine-name" [(ngModel)]="wine.name"  placeholder="name">
+    </div>
+</div>
